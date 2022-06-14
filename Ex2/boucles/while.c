@@ -4,11 +4,11 @@
 void main(int argc, char *argv[])
 {
     int objectif;
-    scanf("votre objectif : %d", &objectif);
+    scanf("%d", &objectif);
     int cpt = 0;
     while(cpt < objectif)
     {
-        printf(" cpt : %d", cpt);
+        printf(" cpt : %d \n", cpt);
         cpt++;
     }
 
