@@ -6,7 +6,7 @@ int *a, b;          // Declare un pointeur a vers un entier et un entier b
 int *p[10];         // Declare un tableau de 10 pointeurs vers des entiers
 int (*p)[10];       // Declare un pointeur vers un Tableau d'entier
 char *p();          // Declare un pointeur vers une fonction P
-char (*p)();        //
+char (*p)();        // Declare
 int (*p)(char *a);  // Declare
 
 char p() { return ""; }
